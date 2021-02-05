@@ -1,0 +1,35 @@
+.tuberculosisContainer {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.tuberculosisContainer .buttons{
+    height: 100px;
+    width:100%;
+    justify-content:space-evenly;
+    display: flex;
+    align-items: center;
+}
+
+.tuberculosisContainer .imagePrediction img {
+    width: 400px;
+}
+
+.tuberculosisContainer .imagePrediction {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width:100%;
+    margin-bottom: 50px;
+}
+
+.tuberculosisContainer .imagePrediction .prediction{
+    display: flex;
+    flex-direction: column;
+    height: 100px;
+    justify-content: space-evenly
+}
+
